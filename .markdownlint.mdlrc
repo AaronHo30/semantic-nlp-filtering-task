@@ -1,0 +1,15 @@
+# Enable or disable specific rules for mdl
+rules:
+  MD001: true   # Header levels should only increment by one level at a time
+  MD002: true   # First header should be a h1
+  MD003: style: atx
+  MD004: style: dash
+  MD007: indent: 2
+  MD013: line_length: 80
+  MD022: true
+  MD026: punctuation: ".,;:!"
+  MD029: style: one
+  MD033: false   # Disallow inline HTML
+  MD034: true    # Bare URL
+  MD040: true    # Require language in fenced code blocks
+  MD041: true    # First line in the file should be a top-level header
